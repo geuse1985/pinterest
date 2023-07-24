@@ -1,0 +1,149 @@
+*{
+    padding: 100;
+    margin: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #343536;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content:end;
+    height: 5vh;
+    padding-top: 11px;
+}
+
+
+header .menu{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-right: 18px;
+}
+
+.menu a{
+    text-decoration: none; 
+    color: #fffff1;
+    font-size: 13px;
+}
+
+.menu svg{
+    height: 24px;
+    width: 24px;
+    fill: #fffff1;
+}
+
+.menu img{
+    height: 24px;
+    width: 24px;
+    border-radius: 50px;}
+
+
+
+.container{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+#logo{
+    display: flex;
+    padding-top: 205px;
+    padding-bottom: 30px;
+
+}
+
+.buscar{
+    display: flex;
+    height: 40px;
+    width: 584px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(90, 87, 87);
+    color: white;
+    background-image: url('../lupa.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 15px center; /* eje x, eje y */
+    padding-left: 50px;
+}
+
+.buscador :hover{
+    background-color: #303134;
+    border: 1px solid #202124;
+    border-color:none;
+    border-radius: 50px;
+    transition: all 0.01s ease;
+}
+
+
+button{
+    background-color: #444549;
+    border:1px solid #5c5c5c;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin: 10 4px;
+    padding: 0 16px;
+    height: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+button:hover{
+
+    border:1px solid #cac7c7;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin: 10 4px;
+    padding: 0 16px;
+    height: 40px;
+}
+
+footer{
+    display: flex;
+    flex-flow: column;
+    background-color: #202124;
+}
+
+.colombia{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #444549;
+    color: #cac7c7;
+}
+
+.links{
+    display: flex;
+    background-color: #202124;
+    padding: 15px 30px;
+}
+
+
+.links .izquierda{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.links .derecha{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.links a{
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    color: #cac7c7;
+}
+
